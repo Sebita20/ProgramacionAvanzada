@@ -5,7 +5,7 @@ async function cargarViajes(maxPrice = null) {
   const contenedor = document.getElementById("contenedor");
 
   if (data.length === 0) {
-    contenedor.innerHTML = `<p class="sin-resultados">😕 No se encontraron vuelos dentro del presupuesto.</p>`;
+    contenedor.innerHTML = `<p class="sin-resultados">No se encontraron vuelos dentro del presupuesto.</p>`;
     return;
   }
 
